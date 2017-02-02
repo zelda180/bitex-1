@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 5, 2014, 4:27:18 PM
+    Author     : user1
+*/
+//html,body {height: 100vh; width:100vw; }
+//body {height: 100%; width: 100%;}
+body {width: 100vw;   }
+#topMenu {height:10vh;background-color: #381982; border-radius:15px; -moz-border-radius: 15px; }
+#sideMenu {background-color:whitesmoke; width: 45vh; border-radius:15px; -moz-border-radius:15px;}
+
+//#n {width:300px; height:300px; position:absolute;top:0;bottom:0;left:0;right:0;margin:auto; }
+#n {width:60vw; height: 90vh;margin-right:20vw;margin-left:20vw;}
+
+    #userInput {height: 10%;margin-left:25%; margin-right:25%; width:50%}
+    #passInput {height: 10%;margin-left:25%; margin-right:25%; width:50%}
+    #loginText {height: 10%;margin-left:25%; margin-right:25%; width:50%}
+    #passText {height: 10%;margin-left:25%; margin-right:25%; width:50%}
+
+    #submitButton {height: 5%;margin-left:25%;}
+    #registerButton {height: 5%;margin-left:25%;}
+
+
+
+    #logo { width: 50%; margin-left: 25% ;margin-right:25%;  }
+    
+    #indexLanguageChoose {width: 15%; margin-left: 45%; margin-right: 45%;}
+    
+

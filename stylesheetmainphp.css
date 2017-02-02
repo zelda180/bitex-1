@@ -1,0 +1,114 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 5, 2014, 4:27:18 PM
+    Author     : user1
+*/
+//html{height: 100%; width:100%; }
+body {height: 100%; width: 70%; background-color:white; margin-left: 15%; margin-right: 15%}
+//body {width: 100%;   }
+
+//#topMenu {height:20%;background: linear-gradient(to bottom, rgba(245,241,255,1) 0%,rgba(216,203,255,1) 47%,rgba(185,161,255,1) 100%);border-radius: 15px;}
+#topMenu {height:20%;background-color: red;border-radius: 15px;}
+
+
+#sideMenu {background-color:#white; width: 15%; float:left; height:80vh; margin-botton: 100vh;}
+
+//#n {width:300px; height:300px; position:absolute;top:0;bottom:0;left:0;right:0;margin:auto; }
+#n {width:60vw; height: 100vh;margin-right:20vw;margin-left:20vw;}
+
+    #userInput {height: 10%;margin-left:25%; margin-right:25%; width:50%}
+    #passInput {height: 10%;margin-left:25%; margin-right:25%; width:50%}
+    #loginText {height: 10%;margin-left:25%; margin-right:25%; width:50%}
+    #passText {height: 10%;margin-left:25%; margin-right:25%; width:50%}
+
+    #submitButton {height: 5%;margin-left:25%;}
+    #registerButton {height: 5%;margin-left:25%;}
+
+
+
+    #logo { width: 50%; margin-left: 25% ;margin-right:25%;  }
+    #menuLogo{height: 25%; width: 25%; margin-left: 37.2% ;margin-right:37.2%;  }
+    
+    #sideMenu > button {height:10%; width: 70%; margin-left:15%; margin-right:15%; margin-top:2%; margin-bottom:2%;}
+    
+    //#topMenu > button {height:60%; }
+    
+    #space1{height:20%;}
+    #space2{height:20%;}
+    #topButtons{height:60%;margin-right:auto;margin-left:auto;width:35%}
+    
+    #logoutButtonTop{float:right; margin-right:2%}
+    #bitcoinChoice{margin-left: 2%; margin-bottom: 2%;}
+    
+    #graph {}
+    
+    #welcomeText {width : 45%; margin-left:20%; margin-right:20%; background-color: cyan; float:left; margin-top: 10%;}
+    
+    #currentPriceTag { width:30%; margin-left: 30%; margin-right: 30%;  background-color: #FCFF31; border-radius: 15px; padding:30px; margin-top:30px; margin-bottom:30px}
+    #currentPrice{text-align:center;}
+    
+    
+    //#buyButton {margin-left:25%; width:25%; float:left;}
+    //#sellButton {margin-right:25%; width: 25%; }
+    //#currencyBalancesButton {margin-left:25%; width:25%; float:left;}
+    //#accountSettingsButton {margin-right:25%; width:25%; }
+    
+    #lastDayChangeTag{background-color: #FCFF31;  width:30%; margin-left: 35%; margin-right: 35%; border-radius: 15px; padding:30px; margin-top:30px; margin-bottom:30px}
+    #lastDayChange{display: inline;}
+    #lastDayChangePercentage{display: inline;}
+   
+    #buyInterface {display: table-row; background-color: #e0d6ff; visibility: collapse ; border-radius: 15px; padding: 10px; margin: 10px; }
+    
+    #sellInterface {display: table-row; background-color: #e0d6ff; visibility: collapse ; border-radius: 15px; padding: 10px; margin: 10px;}
+    #buySellInterfaces { height: 10%; margin-top: 5%; margin-bottom:5%; margin-left:auto; margin-right:auto}
+    
+    
+    #currentPendingOrders {background-color:#ffdc95; padding: 10px; margin: 10px;border-radius:15px;}
+    #currentOrderBook {background-color:#ffdc95; padding: 10px; margin: 10px; border-radius:15px}
+    
+    
+    
+    #bitcoin{background-color:#ffdc95; padding: 10px; margin: 10px;border-radius: 15px;}
+    #currencyBalanceBitcoinPendingTrans{background-color:#fff0d1; padding: 10px; margin: 10px;border-radius: 15px;  }
+    #currencyBalancesBitcoinWithdraw{background-color:#fff0d1; padding: 10px; margin: 10px;border-radius: 15px;  }
+    #currencyBalancesBitcoinDeposit{background-color:#fff0d1; padding: 10px; margin: 10px;border-radius: 15px;}
+    
+    
+    #dollar{background-color:#ffdc95; padding: 10px; margin: 10px;border-radius: 15px;}
+    #currencyBalanceDollarPendingTrans{background-color:#fff0d1; padding: 10px; margin: 10px;border-radius: 15px; }    
+    #currencyBalancesDollarWithdraw{background-color:#fff0d1; padding: 10px; margin: 10px;border-radius: 15px; }
+    #currencyBalancesDollarDeposit{background-color:#fff0d1; padding: 10px; margin: 10px;border-radius: 15px;}
+    
+    
+    #settingsValidate{background-color:#ffdc95; padding: 10px; margin: 10px;border-radius: 15px;}
+    
+    .PendingOrder{float:left;}
+    
+    #copyright{width:100%;}
+    
+    /*register.php*/
+    #registerLogo {position:absolute; left:50%; }
+    .registerForm {height:2%;}
+    .registerFormText{margin-bottom: 7%}
+    #fieldDiv{float:left; width:25%; margin-right: 60%; }
+    #registerTextDiv{float:left; width:15%}
+    #registerSubmit{display:block;}
+    
+    
+/*
+.generatecssdotcom_link_556bef69d12e7 {position:absolute;top:0;right:0;font-size:8px;color:#cccccc;}
+.generatecssdotcom_link_556bef69d12e7 a {color:#cccccc;text-decoration:none;font-weight:normal;}
+.generatecssdotcom_link_556bef69d12e7 a:hover {color:#cccccc;text-decoration:none;font-weight:normal;}
+.generatecssdotcom_button_556bef69d12e7 {-moz-box-shadow:inset  0px 1px 0px 0px #FFFFFF;-webkit-box-shadow:inset  0px 1px 0px 0px #FFFFFF;box-shadow:inset  0px 1px 0px 0px #FFFFFF;background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e0deff), color-stop(1, #7648ff) );background:-moz-linear-gradient( center top, #e0deff 5%, #7648ff 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e0deff', endColorstr='#7648ff');background-color:#e0deff;-webkit-border-top-left-radius:7px;-moz-border-radius-topleft:7px;border-top-left-radius:7px;-webkit-border-top-right-radius:7px;-moz-border-radius-topright:7px;border-top-right-radius:7px;-webkit-border-bottom-right-radius:7px;-moz-border-radius-bottomright:7px;border-bottom-right-radius:7px;-webkit-border-bottom-left-radius:7px;-moz-border-radius-bottomleft:7px;border-bottom-left-radius:7px;text-indent:0;border:1px solid #DCDCDC;display:inline-block;font-size: 15px;font-family: Georgia;color: #ffffff;text-decoration:none;height:50px;line-height:50px;width:150px;text-align:center;text-shadow:1px 1px px #FFFFFF;}
+.generatecssdotcom_button_556bef69d12e7:hover {background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #7648ff), color-stop(1, #e0deff) );background:-moz-linear-gradient( center top, #7648ff 5%, #e0deff 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7648ff', endColorstr='#e0deff');background-color:#7648ff;font-size: 15px;font-family: Georgia;color: #ffffff;text-decoration:none;}
+.generatecs*/
+.generatecssdotcom_link_556bef69d12e7 {position:absolute;top:0;right:0;font-size:8px;color:#cccccc;}
+.generatecssdotcom_link_556bef69d12e7 a {color:#cccccc;text-decoration:none;font-weight:normal;}
+.generatecssdotcom_link_556bef69d12e7 a:hover {color:#cccccc;text-decoration:none;font-weight:normal;}
+.generatecssdotcom_button_556bef69d12e7 {-moz-box-shadow:inset  0px 1px 0px 0px #FFFFFF;-webkit-box-shadow:inset  0px 1px 0px 0px #FFFFFF;box-shadow:inset  0px 1px 0px 0px #FFFFFF;background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #242424), color-stop(1, #000000) );background:-moz-linear-gradient( center top, #242424 5%, #000000 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#242424', endColorstr='#000000');background-color:#242424;-webkit-border-top-left-radius:7px;-moz-border-radius-topleft:7px;border-top-left-radius:7px;-webkit-border-top-right-radius:7px;-moz-border-radius-topright:7px;border-top-right-radius:7px;-webkit-border-bottom-right-radius:7px;-moz-border-radius-bottomright:7px;border-bottom-right-radius:7px;-webkit-border-bottom-left-radius:7px;-moz-border-radius-bottomleft:7px;border-bottom-left-radius:7px;text-indent:0;border:1px solid #DCDCDC;display:inline-block;font-size: 20px;font-family: Georgia;color: #999900;text-decoration:none;height:50px;line-height:50px;width:100px;text-align:center;text-shadow:1px 1px px #FFFFFF;}
+.generatecssdotcom_button_556bef69d12e7:hover {background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #000000), color-stop(1, #242424) );background:-moz-linear-gradient( center top, #000000 5%, #242424 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#242424');background-color:#000000;font-size: 20px;font-family: Georgia;color: #999900;text-decoration:none;}
+.generatecssdotcom_button_556bef69d12e7:active {position:relative;top:1px;}
